@@ -19,16 +19,17 @@ function renderButtons(){
 
 }
 
-function addButton(show){
-	if(topics.indexOf(show) === -1) {
-		topics.push(show);
+function addButton(bam){
+	if(topics.indexOf(bam) === -1) {
+		topics.push(bam);
+		$("#button-container").empty();
 		renderButtons();
 	}
 }
 
-function popContainer(show){
+function popContainer(bam){
 	$.ajax({
-		url: "https://api.giphy.com/v1/gifs/search?q=" + show + 
+		url: "https://api.giphy.com/v1/gifs/search?q=" + bam + 
 		"&api_key=5Use9zSqqmTPzSORNMQPKeORtTAXUlVq&rating=" + "&limit=" + GIFs,
 		method: "GET"
 	}).then(function(response){
