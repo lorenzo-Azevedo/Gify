@@ -1,0 +1,52 @@
+h1{
+	font-size: 90px;
+	margin-top: 1px;
+    margin-bottom: 1px;
+    text-align: center;
+}
+
+.row{
+	margin-bottom: 2px;
+	margin-left: 2px;
+	margin-right: 2px;
+}
+
+.btn{
+	font-size: 16px;
+	background-color: black;
+	color: white;
+	padding: 1px 1px;
+}
+
+.btn:hover{
+	background-color:red;
+}
+
+.new-button{
+	margin: 2px 2px;
+}
+
+.gif-image{
+	margin-top: 2px;
+    margin-bottom: 2px;
+    height: 200px;
+    width: 200px;
+}
+
+.individual-gif-container{
+	float: left;
+	margin: 2px 2px 2px 2px;
+}
+
+#submit{
+	margin-top: 2px;
+}
+
+#emotion{
+	margin-top: 2px;
+	width: 100%;
+}
+
+#gif-container{
+	font-size: 22px;
+}
